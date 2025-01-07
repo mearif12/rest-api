@@ -4,8 +4,7 @@
   "description": "Full backend with JS",
   "main": "none.js",
   "scripts": {
-    "start": "node none.js",
-    "build": "echo 'No build step required'",
+    "start": "nodemon none.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
