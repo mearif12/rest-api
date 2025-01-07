@@ -6,7 +6,7 @@ const userRouter = require('./routes/user.route');
 
 
 const app = express();
-const host = '127.0.0.1';
+//const host = '127.0.0.1';
 const port = process.env.PORT || 4500;
 
 app.use(cors());
@@ -39,6 +39,6 @@ app.use((err,req,res,next)=>{
 
 app.listen(port,host,()=>{
 
-    console.log(`The server is running at http://${host}:${port}`);
+    console.log(`The server is running at http://localhost:${port}`);
 
 });
