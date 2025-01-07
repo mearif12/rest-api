@@ -37,7 +37,7 @@ app.use((err,req,res,next)=>{
 
 
 
-app.listen(port,host,()=>{
+app.listen(port,()=>{
 
     console.log(`The server is running at http://localhost:${port}`);
 
